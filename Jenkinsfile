@@ -31,6 +31,8 @@ pipeline {
         }
 
                     post {
+                        agen any
+
                         always {
                             sh 'echo post steps'
                         }
