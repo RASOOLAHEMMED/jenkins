@@ -1,14 +1,16 @@
 pipeline {
-agent {
-node { label 'workstation' }
-}
 
-stages {
+    agent {
+            node { label 'workstation' }
+           }
 
-stage('one') {
-steps {
-  .sh 'echo Hello'
-      }
-     }
-    }
+
+    stages {
+
+        stage('one') {
+             steps {
+                .sh 'echo Hello'
+                }
+            }
+        }
 }
