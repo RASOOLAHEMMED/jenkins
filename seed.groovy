@@ -15,5 +15,4 @@ freeStyleJob('example') {
     }
 }
 
-#
 
